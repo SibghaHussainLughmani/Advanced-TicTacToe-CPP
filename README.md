@@ -46,9 +46,9 @@ When it shows:
 
 -Start Game
 
-- Instructions
+-Instructions
 
-- Exit
+-Exit
    
 2. INSTRUCTIONS SCREEN
 
@@ -62,9 +62,9 @@ You will see:
 
 INSTRUCTIONS:
 
-- Players take turns
+-Players take turns
 
-- Enter row and column
+-Enter row and column
 
   
 3. GAME START SCREEN
