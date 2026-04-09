@@ -21,7 +21,7 @@ This is an advanced Tic Tac Toe game built in C++ using 2D arrays and a menu-dri
 
 * Concepts Used
 
-- Loops
+-Loops
 
 -Arrays
 
