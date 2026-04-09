@@ -1,15 +1,22 @@
  Advanced Tic Tac Toe (C++)
 
 * Description
+
 This is an advanced Tic Tac Toe game built in C++ using 2D arrays and a menu-driven system.
 
 * Features
 -2D Arrays
+
 -Nested Loops
+
 -Menu System
+
 -Score Tracking
+
 -Game State Handling (Win, Draw, Running)
+
 -Input Validation
+
 -Replay Option
 
 * Concepts Used
