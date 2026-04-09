@@ -4,32 +4,32 @@
 This is an advanced Tic Tac Toe game built in C++ using 2D arrays and a menu-driven system.
 
 * Features
-. 2D Arrays
-.Nested Loops
-.Menu System
-.Score Tracking
-.Game State Handling (Win, Draw, Running)
-.Input Validation
-.Replay Option
+-2D Arrays
+-Nested Loops
+-Menu System
+-Score Tracking
+-Game State Handling (Win, Draw, Running)
+-Input Validation
+-Replay Option
 
 * Concepts Used
-1. Loops
-2.Arrays
-3.Conditional Statements
-4.Game Logic
+- Loops
+-Arrays
+-Conditional Statements
+-Game Logic
 
 *How to Run
-1. Compile using any C++ compiler
-2. Run the program
-3. Follow on-screen instructions
+- Compile using any C++ compiler
+- Run the program
+- Follow on-screen instructions
 
 * Screenshots
   1. MENU SCREEN
     <img width="1734" height="927" alt="Screenshot 2026-04-09 132452" src="https://github.com/user-attachments/assets/c00b0fa0-4385-453d-a07a-c31e2045be8c" />
 When it shows:
-1. Start Game
-2. Instructions
-3. Exit
+-Start Game
+- Instructions
+- Exit
    
 2. INSTRUCTIONS SCREEN
    <img width="1734" height="927" alt="Screenshot 2026-04-09 132631" src="https://github.com/user-attachments/assets/8134701e-eb3d-4de1-8170-5741126c22b5" />
@@ -37,8 +37,8 @@ Press:
 2
 You will see:
 INSTRUCTIONS:
-1.  Players take turns
-2.  Enter row and column
+- Players take turns
+- Enter row and column
 
   
 3. GAME START SCREEN
