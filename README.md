@@ -4,13 +4,13 @@
 This is an advanced Tic Tac Toe game built in C++ using 2D arrays and a menu-driven system.
 
 * Features
-1. 2D Arrays
-2 .Nested Loops
-3 .Menu System
-4 .Score Tracking
-5 .Game State Handling (Win, Draw, Running)
-6 .Input Validation
-7 .Replay Option
+. 2D Arrays
+.Nested Loops
+.Menu System
+.Score Tracking
+.Game State Handling (Win, Draw, Running)
+.Input Validation
+.Replay Option
 
 * Concepts Used
 1. Loops
