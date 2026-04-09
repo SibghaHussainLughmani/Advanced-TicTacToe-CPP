@@ -1,12 +1,10 @@
 
 using namespace std;
-
 int main()
 {
     char board[3][3];
     int choice;
     int scoreX = 0, scoreO = 0;
-
     while (true)
     {
         cout << "\n====== TIC TAC TOE ======\n";
@@ -15,7 +13,6 @@ int main()
         cout << "3. Exit\n";
         cout << "Enter choice: ";
         cin >> choice;
-
         if (choice == 3)
         {
             cout << "Exiting game...\n";
@@ -31,8 +28,6 @@ int main()
             cout << "- Rows, Columns, Diagonals count\n";
             continue;
         }
-
-        // Initialize board
         char num = '1';
         for (int i = 0; i < 3; i++)
         {
@@ -41,18 +36,13 @@ int main()
                 board[i][j] = num++;
             }
         }
-
         char player = 'X';
         int moves = 0;
         bool win = false;
-
         while (!win && moves < 9)
         {
-            // Display Scoreboard
             cout << "\nScoreboard:\n";
             cout << "Player X: " << scoreX << "  |  Player O: " << scoreO << endl;
-
-            // Display Board
             cout << "\nCurrent Board:\n";
             for (int i = 0; i < 3; i++)
             {
@@ -67,25 +57,18 @@ int main()
 
             cout << "\nGame State: RUNNING\n";
             cout << "Player " << player << " turn\n";
-
             int row, col;
             cout << "Enter row (1-3) and column (1-3): ";
             cin >> row >> col;
-
             row--; col--;
-
-            // Validation
             if (row < 0 || row > 2 || col < 0 || col > 2 ||
                 board[row][col] == 'X' || board[row][col] == 'O')
             {
                 cout << "Invalid move! Try again.\n";
                 continue;
             }
-
             board[row][col] = player;
             moves++;
-
-            // Check Win
             for (int i = 0; i < 3; i++)
             {
                 if ((board[i][0] == player && board[i][1] == player && board[i][2] == player) ||
@@ -105,7 +88,6 @@ int main()
             {
                 cout << "\n?? Player " << player << " WINS!\n";
                 cout << "Game State: WIN\n";
-
                 if (player == 'X') scoreX++;
                 else scoreO++;
             }
@@ -119,8 +101,6 @@ int main()
                 player = (player == 'X') ? 'O' : 'X';
             }
         }
-
-        // Final Board
         cout << "\nFinal Board:\n";
         for (int i = 0; i < 3; i++)
         {
