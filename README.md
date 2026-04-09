@@ -85,7 +85,6 @@ Board becomes:
  X | O | 3
 ---|---|---
  4 | X | 6
----|---|---
  7 | 8 | O
 
 ✔ Shows:
@@ -106,6 +105,7 @@ Output shows:
 
 Game State: WIN
 
-* Author
+* Author:
+
 Sibgha Hussain Lughmani
 
