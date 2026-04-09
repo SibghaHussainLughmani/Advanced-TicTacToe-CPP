@@ -29,12 +29,12 @@ This is an advanced Tic Tac Toe game built in C++ using 2D arrays and a menu-dri
 
 -Game Logic
 
-*How to Run
-- Compile using any C++ compiler
+* How to Run
+-Compile using any C++ compiler
 
-- Run the program
+-Run the program
 
-- Follow on-screen instructions
+-Follow on-screen instructions
 
 
 * Screenshots
